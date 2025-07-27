@@ -67,6 +67,7 @@ cricket-stats-data-pipeline-gcp/
 │
 ├── dataflow/
 │ └── transform_udf.js # Apache Beam script
+| └── bq.json # BQ Table Schema
 │
 ├── ingestion/
 │ └── fetch_cricbuzz_data.py # API fetcher (simulated)
